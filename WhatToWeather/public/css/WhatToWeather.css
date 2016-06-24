@@ -1,0 +1,324 @@
+body
+{
+	color: black;
+	background-color: #ccffff;
+	font-family: garamond;
+}
+h1
+{
+	color: #003366;
+	text-align: center;
+	padding: 5%;
+	padding-bottom: 2%;
+	font-size: 50px;
+}
+h2
+{
+	font-family: garamond;
+	color: #003366;
+	margin-left: 5%;
+}
+
+.textBox input
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+    background: white;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #003366;
+    color: #666;
+    text-indent: 5px;
+
+  }
+
+.buttons
+{
+	margin: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border: 1px solid #003366;
+	border-radius: 5px;
+	display: block;
+	background-color: #0099cc;
+	color: white;
+}
+
+
+div#buttons input
+{
+/*	margin: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border: 1px solid #003366;
+	border-radius: 5px;
+	display: block;
+	background-color: #0099cc;
+	color: white;*/
+}
+
+.but input.buttons:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #33cccc;
+	color: darkblue;
+}
+#weather{
+	display: none;
+}
+a:visited{
+	color: darkblue;
+	font-weight: bolder;
+}
+a:hover{
+	color: purple;
+}
+ul li
+{
+	display: inline;
+	float: right;
+	text-align: center;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 5px;
+	padding: 5px;
+	font-family: Book Antiqua;
+	border: inset #0099cc;
+	background-color: #33cccc;
+}
+li:hover {
+	background-color: cyan;
+	color: white;
+	border-color: darkblue;
+}
+p
+{
+	font-size: 15px;
+	text-align: center;
+	/*padding-right: 25%;*/
+	/*padding-left: 25%;*/
+}
+p#linkToAbout
+{
+	/*padding-top: 15%;*/
+	text-align: center;
+}
+.description
+{
+	margin: auto;
+	width: 400px;
+}
+/*SignUp Page*/
+div#signUpBoxes input
+{
+	margin: auto;
+	display: block;
+	margin-bottom: 2%;
+}
+/*Settings Page*/
+.changeSettings
+{
+	display: block;
+}
+
+.box
+{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.setButtons
+{
+	display: inline;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border: 1px solid #003366;
+	border-radius: 5px;
+	background-color: #0099cc;
+	color: white;
+	margin-left: 12%;
+	margin-right: 2%;
+}
+
+p.setDesc
+{
+	display: inline;
+	margin-bottom: 12%;
+	margin-left: 2%;
+}
+div#settingsWrapper
+{
+	margin-left: 25%;
+	margin-right: 2%;
+	display: block
+}
+
+.settingsBox
+{
+    background: white;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #003366;
+    color: #666;
+    text-indent: 5px;
+    display: inline;
+    width: 180px;
+    margin-bottom: 3%;
+  }
+.checkBoxes
+{
+	display: inline;
+	margin-left: 11%;
+}
+h2#checkHeading
+{
+	display: inline;
+	margin-left: 10%;
+}
+.checkLabel
+{
+	display: inline;
+}
+input#acceptSettings
+{
+	width: 100px;
+	margin-top: 4%;
+}
+.setBut input.setbuttons:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: teal;
+	color: cyan;
+}
+/*About Page*/
+p#aboutDesc
+{
+	float: left;
+	width: 39%;
+	margin-left: 3%;
+}
+img#duckPondImage
+{
+	float: right;
+	margin-right: 13%;
+	margin-top: -6%;
+}
+.Umbrella
+{
+	display: inline;
+	float: left;
+	margin-left: 2%;
+	border-radius: 25%;
+}
+span#error {
+	text-align: center;
+	color: red;
+	display: block;
+	font-weight: bold;
+}
+
+form#register input.available {
+	background-color: lightgreen;
+}
+
+form#register input.unavailable {
+	background-color: pink;
+}
+
+div#addClothes
+{
+	display: inline;
+	float: left;
+	margin-left: 25%;
+	width: 75%;
+}
+
+input#tempMin
+{
+	margin-left: 3%;
+	display: inline;
+	width: 100px;
+}
+
+input#nameClothing{
+	display: inline;
+	margin-left: 3%;
+}
+input#tempMax{
+	display: inline;
+	margin-left: 3%;
+	width: 100px;
+}
+
+input#submitClothingButton{
+	margin-left: 23%;
+}
+
+select
+{
+	float: left;
+	background-color: white;
+	color: #003366;
+	display: inline;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #003366;
+    text-indent: 5px;
+}
+
+.listOfClothes{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+ul#listOfClothes{
+	margin: 0%;
+	padding: 0%;
+}
+
+table, td, th {
+    text-align: center;
+		color: #003366;
+		font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+		margin: auto;
+		margin-bottom: 5%;
+}
+th {
+    background-color: teal;
+    color: white;
+		font-size:19px;
+}
+
+ tr:nth-child(even){
+	 background-color:  #70dbdb;
+ }
+ /*tr:hover {
+	 background-color: cyan;
+ }*/
+th, td {
+    padding: 15px;
+}
+
+
+p.post{
+	text-align: left;
+}
+div.post{
+	border-bottom: 1px solid gray;
+}
+div.feed{
+	width: 700px;
+	margin: auto;
+}
+h2#feed{
+	text-align: center;
+	margin-left: 0;
+}
